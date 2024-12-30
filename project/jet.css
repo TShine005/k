@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: white;
+  }
+  .navbar{
+    background-color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  }
+  .navbar-1{
+    display: flex;
+    margin-right: 50px;
+    text-align: center;
+  }
+  
+  .navbar img{
+    width: 120px;
+    cursor: pointer;
+   margin-left: 100px;
+  
+  }
+  .navbar h1{
+    text-align: center;
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .icons {
+  text-align: center;
+  width: 70px;
+  height: 7vh;
+  color: rgba(0, 0, 0, 0.534);
+  cursor: pointer;
+  }
+  .icons:hover{
+    color: black;
+  }
+  .border{
+    border-left: 1px solid rgb(187,187,187);
+  }
+  .btn-1 button{
+   border: 1px solid rgba(51, 128, 204, 0.61);
+   width: 100px;
+   height: 9vh;
+   background-color: transparent;
+   border-radius: 5 0px;
+   cursor: pointer;
+   color: rgb(0, 75, 151) ;
+  }
+  .btn:hover{
+    background-color: rgba(120, 120, 120, 0.763);
+    border-radius: 10px;
+  }
+  .btn-1:hover{
+    background-color: rgba(88, 102, 255, 0.763);
+    border-radius: 20px;
+  }
+  .btn button{
+    width: 100px;
+    height: 9vh;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .login-page{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .login-page h1{
+    width: 500px;
+    font-size: 40px;
+    color: rgb(178, 64, 32);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 100;
+  }
+  .sub-input input{
+   width: 80%;
+   height: 8vh;
+  }
+  .sub-input1 input{
+    width: 80%;
+    height: 8vh;
+  }
+  .login-page a{
+    text-decoration: none;
+    color: rgb(31,115,199);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .btn-2 button{
+    border: none;
+    width: 80%;
+    height: 8vh;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(31,115,199) ;
+    cursor: pointer;
+  }
+  .btn-2 a{
+    color: white;
+  }
+  .btn-2 button:hover{
+    background-color: rgb(11, 61, 112) ;
+  }
+  .login-page1{
+    display: flex;
+  }
+  .login-pageimg img{
+    width: 85%;
+    height: 100vh;
+    margin-left: 140px;
+    margin-top: 120px;
+  }
+  .policy p{
+    color: black;
+    font-size: 10px;
+    width: 340px;
+  }
+  .btn-3 button{
+     border: 1px solid rgb(139,140,141);
+    width: 60%;
+    height: 2vh;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:transparent ;
+    cursor: pointer;
+  }
+  
+  .btn-6 button{
+     border: 1px solid rgb(139,140,141);
+    width: 80%;
+    height: 8vh;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:transparent ;
+    cursor: pointer;
+  }
+  .btn-3 img{
+    width: 5%;
+    align-items: center;
+  }
+  .section h1{
+    width: 310px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 100;
+  }
+  .section p{
+    color: rgb(173,173,173);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 450px;
+    font-size: 15px; 
+  }  
+  .section{
+    width: 100%;
+    display: flex;
+    height: 50vh;
+  
+    margin-left: 100px;
+  }
+  .btn-8{
+    width: 100%;
+  }
+  .btn-8 button:hover{
+    background-color: aliceblue;
+  }
+  
+  .btn-7 button{ 
+    border: 1px solid rgb(139,140,141);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:transparent ;
+    cursor: pointer;
+   width: 20%;
+    height: 8vh;
+    justify-content: center;
+  }
+  .btn-9 button{
+    border: 1px solid rgb(139,140,141);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:transparent ;
+    cursor: pointer;
+   width: 25%;
+    height: 8vh;
+  }
+  .btn-10 button{
+    border: 1px solid rgb(139,140,141);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:transparent ;
+    cursor: pointer;
+   width: 25%;
+   justify-content: space-around;
+    height: 8vh;
+  }
+  .btn-11 button{
+    border: 1px solid rgb(123,172,222);
+    color: rgb(0, 69, 137);
+  }
+  .section-1{
+    background-color: rgb(241,236,229);
+    margin-top: 90px;
+    height: 45vh;
+  }
+  .section-1 h1{
+    width: 390px;
+    margin-top: 70px;
+   color: rgb(180,69,38);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 100;
+  }
+  .section-1 button{
+    height: 8vh;
+    width: 110px;
+    background-color: transparent;
+    border: 1px solid rgb(53,127,200);
+    color: rgb(53,127,200);
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 90px;
+    cursor: pointer;
+  }
+  .section-1 button:hover{
+    background-color: rgba(53, 126, 200, 0.166) ;
+  }
+  .post{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 130px;
+    margin-bottom: 60px;
+  }
+  .carousel11{
+    background-color: rgb(241,236,229);
+  }
+  .drop-1 img{
+    width: 60%;
+  }
+  .drop-1 h2{
+    font-weight: 100;
+    width: 70%;
+  }
+  .drop-1 button{
+    border: 1px solid black;
+    background-color:transparent;
+    height: 8vh;
+    width: 40%;
+    border-radius: 20px;
+    color: rgb(71, 71, 71);
+  }
+  .drop-1 button:hover{
+    background-color: rgba(142, 142, 142, 0.212);
+  }
+  .drop-1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+  }
+  .navigate{
+    display: flex;
+  
+  }
+  .navigate h1{
+  font-weight: 100;
+  color:  rgb(180,69,38);
+  }
+  .navigate h2,h1{
+    font-weight: 100;
+  }
+  .navigate img{
+    margin-left: 150px;
+    width: 50%;
+  }
+  .navigate-1{
+    background-color: rgb(243,242,240);
+    justify-content: center;
+    width: 60%;
+   
+  }
+  .navigate-2{
+    width: 70%;
+    margin-top: 200px;
+  
+  }
+  #overflowTest {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 250px;
+    height: 50vh;
+    overflow: scroll;
+    border: 1px solid #ccc;
+  }
+  .dropdown-menu a:hover{
+  text-decoration: underline;
+  color: blue;
+  }
+  .find h2{
+    background-color: rgb(234,230,223);
+    font-weight: 100;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .find{
+    width: 50%;
+  }
+  .find h2:hover{
+    background-color: rgb(207, 207, 207);
+  }
+  .Jooin{
+    background-image: url(4ezbw852t2wrgf27zl1o1qtu7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    visibility: visible;
+  }
+  .Jooin h1{
+    margin-top: 60px;
+    font-weight: 100;
+    margin-left: 120px;
+    width: 70%;
+  }
+  .Jooin button{
+    background-color: rgb(4, 91, 177);
+    border: none;
+    width: 10%;
+    height: 8vh;
+    border-radius: 20px;
+    margin-left: 120px;
+  }
+  .Jooin button:hover{
+    background-color:rgb(6, 70, 133) ;
+  }
+  @media (max-width:600px)
+   {
+    .login-page h1{
+      width: 400px;
+      font-size: 30px;
+      background-color: aqua;
+      color: rgb(178, 64, 32);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 100;
+    }
+    .login-page1{
+      flex-wrap: wrap;
+    }
+     .login-page{
+      margin-top: 50px;
+      margin-left: 10px;
+    }
+    
+    .login-pageimg img{
+      width: 50%;
+      height: 50vh;
+   
+    }
+    .login-pageimg img{
+      width: 50%;
+      height: 50vh;
+      margin-left: 140px;
+      margin-top: 5px;
+    }
+    .login-pageimg{
+      align-items: center;
+  
+      height: 50vh;
+      margin-bottom: 100px;
+    }
+    .icons{
+     display: none;
+    }
+    .navbar{
+      background-color: white;
+      height: 15vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+    }
+    .navbar-1{
+      display: flex;
+      margin-right: 5px;
+      text-align: center;
+    }
+    
+    .navbar img{
+      width: 80px;
+      cursor: pointer;
+      margin-right:130px;
+    }
+    .navbar h1{
+      text-align: center;
+    }
+    .sub-input input{
+      width: 90%;
+      height: 10vh;
+     }
+     .sub-input1 input{
+       width: 90%;
+       height: 10vh;
+     }
+  
+    .border{
+      display: none;
+    }
+    .btn-2 button{
+      border: none;
+      width: 90%;
+      height: 9vh;
+      border-radius: 20px;
+      color: white;
+      background-color: rgb(31,115,199) ;
+      cursor: pointer;
+    }
+    .border-bot{
+      margin-left: 20px;
+    }
+    .policy p{
+      align-items: center;
+      margin-left: 50px;
+    }
+    .btn-3 button{
+    margin-left: 50px;
+    width: 70%;
+   }
+   .btn-6 button{
+    height: 9vh;
+    width: 90%;
+   }
+  .section{
+   flex-wrap: wrap;
+   margin-bottom: 90px;
+   margin-left: 10px;
+  }
+  }

@@ -1,0 +1,391 @@
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    background-color: white;
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+ }
+ 
+ .header .icon{
+     width: 55px;
+     height: 55px;
+     margin-bottom: 15px;
+     cursor: pointer;
+ }
+ .top-icon a{
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .header .no{
+     position: absolute;
+     top: 50%;
+     margin-left: 60px;
+ }
+ 
+ .header img{
+     width: 30px;
+     height: 30px;
+     margin-top: 20px;
+ }
+ /* 
+ .header .top-icon:focus-within{
+     text-decoration: underline;
+     color: #045be6;
+ } */
+ 
+ .top-icon label:focus-within{
+     text-decoration: underline;
+     color: #045be6;    
+ }
+ 
+ body{
+     height: auto;
+     font-family: Arial, Helvetica, sans-serif;
+     padding-top: 70px;
+     padding-left: 170px;
+     padding-right: 150px;
+     background: #F4F2EE;
+ }
+ 
+ .middle-section{
+     display: flex;
+     flex: 1;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 70px;
+ }
+ 
+ .middle-section label{
+     margin-left: -10px;
+     margin-top: 5px;
+     cursor: pointer;
+ }
+ 
+ .middle-section .notification{
+     margin-right: 15px;
+     
+ }
+ .right-section{
+     display: flex;
+     border-left: 1px solid rgba(199, 192, 192, 0.5);
+     width: 140px;
+     margin-left: 30px;
+     justify-content: space-between;
+     padding-left: 30px;
+     justify-content: space-between;
+     padding-left: 20px;
+ }
+ 
+ .search-box{
+     padding: 7px;
+     border: 1px solid rgba(199, 192, 192, 0.5);
+     background-color: rgba(175, 211, 233, 0.349);
+     width: 250px;
+     margin-bottom: 5px;
+     margin-right: 30px;
+     height: 25px;
+ }
+ 
+ .search-box::placeholder{
+     font-size: 14px;
+     padding-left: 25px;
+ }
+ 
+ .home{
+     height: 30px;
+     border-radius: 50%;
+ }
+ 
+ .me-icon{
+     display: flex;
+     flex-direction: column;
+     padding-top: 2px;
+     padding-bottom: 2px;
+ }
+ 
+ .me-icon label{
+     margin-left: 10px;
+ }
+ 
+ .dp{
+     height: 30px;
+     border-radius: 50%;
+     width: 30px;
+     margin-left: 10px;
+ }
+ 
+ .top-icon{
+     display: flex;
+     flex-direction: column;
+     opacity: 0.6;
+     padding-top: 2px;
+     padding-bottom: 2px;
+ }
+ 
+ .contents{
+     display: flex;
+ }
+
+
+
+ /* ..................profile-dropdown........... */
+
+  .drop-down{
+    background-color: white;
+    width: 20%;
+    height: 453px;
+    margin-left: -280px;
+    border-radius: 10px 0 10px 10px;
+    display: none;
+
+ }
+
+ .profile-dropdown:focus-within .drop-down{
+    display: block;
+ }
+
+ .drop-down .account{
+    color: black;
+ }
+
+ .drop-down .blue:hover{
+     color: #045be6;
+     text-decoration: underline;
+ }
+
+ .drop-down h3:hover{
+    text-decoration: underline;
+ }
+
+ .drop-down h3{
+    color: #949494;
+    font-weight: 600;
+    cursor: pointer;
+ }
+
+.profile-dropdown .meee{
+   position: relative;
+}
+
+.profile-dropdown .drop-down{
+    position: absolute;
+}
+
+.drop-down img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.drop-down h3{
+    font-size: 14px;
+}
+
+.drop-down .name{
+    margin-bottom: -40px;
+    font-weight: 400;
+    color: #979797;
+}
+ 
+.drop-down p{
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.drop-down button{
+    margin-left: 80px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    border-color: #4a6fc4;
+    color: #4a6fc4;
+}
+
+.drop-down h3{
+    margin-left: 15px;
+}
+.profile-dropdown .meee{
+    border: none;
+}
+
+/* ..............left-part.............. */
+.left-part{
+   width: 20%;
+   background: white;
+   height: 140px;
+   padding: 10px;
+   border-radius: 12px;
+}
+
+.left-part .manage{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.left-part .text-b{
+     color: #045be6;
+     cursor: pointer;
+}
+
+/* ........middle-part............... */
+.middle-part{
+   width: 45%;
+   background: white;
+   height: 80px;
+   margin-left: 70px;
+   border-radius: 12px;
+}
+
+.middle-part .buttons{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.buttons .btn-1{
+    padding: 7px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: white;
+    background: green;
+    cursor: pointer;
+}
+
+.buttons .btn-2{
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.buttons .btn-3{
+    width: 80px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.notifications img{
+    width: 12%;
+   
+}
+.section1{
+    border-radius: 12px;
+}
+
+.middle-part .comments{
+    margin-left: 75px;
+    margin-top: -70px;
+    font-size: 14px;
+}
+
+.middle-part .section2{
+    background: white;
+    margin-top: 35px;
+    height: auto;
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.notification2 img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.main{
+    padding: 10px;
+    transition: .1s;
+}
+
+.main:hover{
+    background: #edf3f8;
+}
+
+.notification2{
+    padding: 10px;
+    transition: .1s;
+}
+
+.notification2:hover{
+    background: #edf3f8;
+}
+
+.comments span{
+    margin-left: 325px;
+    transition: .1s;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.comments span:hover{
+    background: #979797;
+}
+
+.comments2 p{
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+.comments2 span{
+    margin-left: 400px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    transition: .2s;
+}
+
+.comments2 span:hover{
+    background: #979797;
+}
+
+.middle-part .comments2{
+    margin-top: -60px;
+}
+/* ..............right-part................. */
+
+.right-part{
+   width: 30%;
+   margin-left: 70px;
+   height: 200px;
+
+}
+
+.sidebar-useful-links{
+    padding: 15px 25px;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.sidebar-useful-links p{
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 5px;
+   
+}
+.sidebar-useful-links p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+    
+}
+.linked-in-img img{
+    width: 20%;
+    height: 20px;
+    border-radius: 0;
+}
+.linked-in-img span{
+    font-size: 12px;
+}

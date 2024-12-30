@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+link{
+    width: 80%;
+    margin-right: 100%;
+}
+.link1{
+    margin-top: 50px;
+    height: 100px;
+    /* justify-content: space-between; */
+}
+.bigbox{
+    width: 30%;
+    height: 280px;
+    margin-left: 50%;
+    border-radius: 10px 13px 10px 13px;
+    margin-bottom: 150px;
+}
+.firstfont{
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    text-decoration: underline;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.secondfont{
+    font-size: 20px;
+    padding-top: 15px;
+    text-emphasis: center;
+    padding-left: 30px;
+    outline-color: blue; 
+    margin-left: 40px;
+}
+.thirdfont{
+    font-size: 20px;
+    padding-top: 15px;
+    text-emphasis: center;
+    padding-left: 30px;
+    outline-color: blue; 
+    margin-left: 40px;   
+}
+.fouthfont{ 
+    cursor: pointer;
+    margin-left: 70px;
+    color: blue;
+}
+.h1{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin-left: 50px;
+}

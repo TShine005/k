@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.navbar{
+    margin-left: 70px;
+    width: 120px;
+    display: flex;
+    padding-top: 20px;
+}
+.img{
+    height: 60px;
+    width: 100%;
+}
+.kit{
+    display: flex;
+    margin-left: 250px;
+    text-align: center;
+}
+.article{
+    padding-left: 100px;
+    margin-right: 10px;
+    align-items: center;
+    width: 10px;
+    cursor: pointer;
+}
+.btn{
+    margin-left: 60px;
+    background-color: transparent;
+}
+.btn button{
+   font-size: large;
+    border: none;
+    width: 90px;
+    height: 9vh;
+    cursor: pointer;
+    background-color: transparent;
+}
+.btn1 button{
+    border: 2px solid rgba(51, 128, 204, 061);
+    width: 100px;
+    height: 9vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn1{
+    border-radius: 80px;
+    padding: 5px;
+}
+.welcome{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.welcome1{
+    display: flex;
+}
+.welcome1 h1{
+    width: 500px;
+    font-size: 40px;
+    color: rgb(232, 90, 54);
+    font-family: sans-serif;
+}
+.sec1{
+    display: flex;
+   
+}
+.sub-input{
+    width: 400px;
+}
+.sub-input input{
+    width: 400px;
+    height: 7vh;
+}
+.btn-2{
+    width: 400px;
+}
+.btn-2 button{
+    border: none;
+    width: 400px;
+    height: 8vh;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(10,102,194);
+    cursor: pointer;
+}
+.pas{
+    margin-top: 15px;
+    width: 400px;
+}
+.poli button    {
+    background-color: white;
+}
+.btn-2 button:hover{
+    background-color: rgb(10,102,194);
+}
+.or{
+    margin-left: 20px;
+    padding-top: 25px;
+}
+.poli{
+    padding-top: 25px;
+    color: rgb(164,164,164);
+}
+.h5{
+    color: blue;
+}
+.ggbtn{
+    margin-top: 20px;
+}
+.gbtn button{
+    margin: 200px;
+}
+.gin{
+    display: flex;
+}
+.gin img{
+    width: 600px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.see{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-left: 60px;
+}
+.side{
+    padding: 0;
+}
+.side h2{
+    font: 200;
+    font-family: "Roboto" sans-serif;
+    font-style: normal;
+    width: 400px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.side p{
+    width: 450px;
+    font-size: 20px;
+    font: 200;
+    font-family: "Roboto" sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 30px;
+}
+.see h2{
+    font-size: 20px;
+}
+.btn6{
+    margin-left: 40px;
+    width: 1180px;
+}
+.btn7{
+    margin-left: 90px;
+    width: 1180px; 
+}
+.btn6,.btn7,.btn3{
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-radius: 50px;
+    color: rgb(117,117,117);
+    font-family: "Roboto" sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.btn3{
+    font-family: "Roboto" sans-serif;
+    font-weight: 500;
+    border: solid 1px grey;
+    width: fit-content;
+    margin-top: 10px;
+    padding: 12px;
+}
+.btn33{
+    font-family: "Roboto" sans-serif;
+    border: 1px solid rgb(53,127,200);
+    color: rgb(53,127,200);
+    font-weight: 600;
+    width: fit-content;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 50px;
+    width: 100px;
+}
+.seeb{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+.side1 h2{
+    color: rgb(0,0,0,0.8);
+    font: 200;
+    font-family: "Roboto" sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    width: 480px;
+    font-size: 40px;
+}
+.secb{
+    margin-top: 100px;
+    background-color: rgb(241,236,229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.side2 h2{
+   color: rgb(178,64,32);
+    font: 200;
+    font-family: "Roboto" sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    width: 280px;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.side2{
+    padding: 0;
+}
+.side2 button{
+    height: 8vh;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid rgb(53,127,200);
+    color: rgb(53,127,200);
+    border-radius: 45px;
+    margin-left: 500px;
+    margin-bottom: 60px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(46, 28, 28, 0.203);
+}
+.side h2{
+    font: 200;
+    font-family: "Roboto" sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    width: 280px;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 30px;
+}   
+.side p{
+    width: 380px;
+    height: 90px;
+    margin-left: 50px;
+}
+.btn3:hover{
+   background-color: rgba(46, 28, 28, 0.203);
+}
+.btn1:hover{
+    background-color: rgb(0,0,0,0.1);
+}
+.pas:hover{
+     background-color: rgb(0,0,0,0.1);
+}
+.btn-2 button:hover{
+    background-color: rgb(0,65,130);
+}
+.seea{
+    background-color: rgb(243,242,240);
+    display: flex;
+}
+.side3{
+    margin-bottom: 90px;
+}
+.side3 img{
+    width: 400px;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.let{
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.let h2{
+    color: rgb(178,64,32);
+    margin-left: 50px;
+    width: 480px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.let h6{
+    width: 350px;
+    margin-left: 50px;
+    font: 200;
+    font-family: "Roboto" sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.sect{
+   margin-left: 0px;
+   height: 50px;
+   width: 350px;
+   margin-top: 150px;
+}
+.sect img{
+    margin-left: 90px;
+    margin-bottom: 90px;
+    width: 300px;
+}
+.sect h2{
+    width: 350px;
+    height: 70px;
+    font-weight: 700;
+    margin-left: 70px;
+    margin-top: 0;
+}
+.sect button{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.set{
+    margin-left: 750px;
+    height: 50px;
+    width: 350px;
+    margin-bottom: 170px;
+}
+set img{
+    margin-bottom: 660px;
+}
+set h2{
+    width: 250px;
+}
+.navigate{
+    display: flex;
+    margin-left: 3px;
+    margin-top: 150px;
+    width: 1150px;
+  }
+  .navigate h1{
+  font-weight: 100;
+  color:  rgb(180,69,38);
+  margin-left: 50px;
+  margin-top: 0px;
+  }
+  .navigate h2{
+    width: 350px;
+    font-size: 440;
+  }
+  .navigate h2,h1{
+    font-weight: 100;
+  }
+  .navigate-1{
+    background-color: rgb(243,242,240);
+    justify-content: center;
+    width: 1200px;
+    height: 550px;
+  }
+  .navigate-2{
+    width: 90%;
+    margin-top: 200px;
+  }
+  .navigate img{
+    margin-left: 340px;
+    width: 500px;
+  }
+  .btn08{
+    border: none;
+    border-radius: 1px solid rgb(234,230,223);
+    font-family: "Roboto" sans-serif;
+    font-size: 20px;
+    height: 7vh;
+    background-color: rgb(234,230,223);
+    cursor: pointer;
+    width: 290px;
+  }
+  .btn09{
+    border: none;
+    border-radius: 1px solid rgb(234,230,223);
+    font-family: "Roboto" sans-serif;
+    font-size: 20px;
+    height: 7vh;
+    background-color: rgb(234,230,223);
+    cursor: pointer;
+    width: 290px;
+  }
+.btn00{
+    border: none;
+    border-radius: 1px solid rgb(234,230,223);
+    font-family: "Roboto" sans-serif;
+    font-size: 20px;
+    height: 7vh;
+    background-color: rgb(234,230,223);
+    cursor: pointer;
+}
+.button88{
+    margin-top: 40px;
+}
+.btn00:hover{
+    background-color: rgba(46, 28, 28, 0.203);
+}
+.Jooin{
+    background-image: url(../project.images/download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1262px;
+    height: 80vh;
+  }
+  .Jooin h1{
+    margin-top: 60px;
+    font-weight: 100;
+    margin-left: 120px;
+    width: 50%;
+    font-weight: 200;
+    font-family: "poppins" sans-serif;
+    font-size: xx-large;
+  }
+  .Jooin button{
+    background-color: rgb(10,102,194);
+    border: none;
+    width: 10%;
+    color: white;
+    height: 8vh;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 120px;
+  }
+  .Jooin button:hover{
+    background-color: rgb(0,65,130);
+  }
+.gene img{
+    width: 90px;
+    margin-left: 10px;
+}
+.general1{
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 90px;
+}
+.general1 h3{
+    margin-bottom: 250px;
+    display: flex;
+}

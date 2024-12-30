@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+}
+.me{
+    width: 400px;
+    margin-top: 200px;
+  margin-left: 800px;
+  background-image: url(../project.images/my\ love.jpg); background-size: 100px;
+    cursor: pointer;
+}
+.mm{
+    width: 20%;
+    color: palevioletred;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 70px;
+    height: 4vh;
+}
+.mm:hover{
+    color: tomato;
+}
+.me .sec{
+    width: 30%;
+    height: 4vh;
+    border-radius: 10px;
+}
+.fou:hover{
+    color: rgb(128, 0, 0);
+}

@@ -1,0 +1,381 @@
+.header{
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   height: 60px;
+   background-color: white;
+   padding-left: 160px;
+   padding-right: 160px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+}
+
+.top-icon a{
+    text-decoration: none;
+    color: black;
+ }
+
+.header .icon{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 15px;
+}
+
+.header .no{
+    position: absolute;
+    top: 50%;
+    margin-left: 60px;
+}
+
+.header img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+/* 
+.header .top-icon:focus-within{
+    text-decoration: underline;
+    color: #045be6;
+} */
+
+.top-icon label:focus-within{
+    text-decoration: underline;
+    color: #045be6;    
+}
+
+body{
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background: #F4F2EE;
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.middle-section label{
+    margin-left: -10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.middle-section .notification{
+    margin-right: 15px;
+    
+}
+.right-section{
+    display: flex;
+    border-left: 1px solid rgba(199, 192, 192, 0.5);
+    width: 140px;
+    margin-left: 30px;
+    justify-content: space-between;
+    padding-left: 30px;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.search-box{
+    padding: 7px;
+    border: 1px solid rgba(199, 192, 192, 0.5);
+    background-color: rgba(175, 211, 233, 0.349);
+    width: 250px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+    height: 25px;
+    
+}
+
+.search-box::placeholder{
+    font-size: 14px;
+    padding-left: 25px;
+}
+
+.home{
+    height: 30px;
+    border-radius: 50%;
+}
+
+.me-icon{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.me-icon label{
+    margin-left: 10px;
+}
+
+.dp{
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.top-icon{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.6;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.middle-section label{
+   color: black;
+   text-decoration: none;
+} 
+
+.contents{
+    display: flex;
+}
+
+/* ............left-section........... */
+.manage{
+    width: 40%;
+    background: white;
+    align-self: flex-start;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.manage p{
+  padding: 10px;
+  color: rgb(108,108,108);
+  font-weight: 400;
+  font-family: "Oxygen Sans" sans-serif;
+}
+
+.manage p:hover{
+    background-color: #c3c3c3;
+}
+
+.manage button{
+    padding: 7px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: "Oxygen Sans" sans-serif;
+    font-weight: 600;
+    color: rgb(108,108,108);
+    border: none;
+    background-color: transparent;
+}
+
+.manage button:hover{
+    background-color: #c3c3c3;
+}
+
+.contents{
+    display: flex;
+}
+
+.linked-in-img img{
+    width: 20%;
+}
+
+.manage li{
+    font-size: 12px;
+    list-style: none;
+    display: inline-block;
+}
+
+.linked-in-img .span{
+    font-size: 12px;
+}
+
+/* ................middle-content........... */
+
+.middle-content{
+    width: 800px;
+    background: white;
+    padding-left: 20px;
+    margin-left: 50px;
+    height: 230px;
+    border-radius: 12px;
+}
+
+.wrap img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;  
+}
+.wrap button{
+    height: 35px;
+    margin-top: 15px;
+    font-family: "Oxygen Sans" sans-serif;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f9c982;
+}
+
+.wrap button:hover{
+    background-color: #F0A028;
+}
+
+.sidebar-prof-box{
+    background: #fff;
+    border-radius: 8px 8px 8px 8px;
+    width: 150px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+    border: solid gray;
+    transition: 0.5s;
+}
+
+.sidebar-prof-box:hover{
+    box-shadow: 2px 2px 2px 2px;
+    color: black;
+}
+
+.sidebar-prof-box h1{
+    font-size: 16px;
+}
+.sidebar-prof-box h3{
+     font-size: 14px;
+     font-weight: 100;
+}
+
+.sidebar-prof-box .coverphoto{
+    border-radius: 8px 8px 0 0;
+    height: 80px;
+    width: 150px;
+}
+
+.sidebar-prof-info{
+    padding: 0 25px;
+}
+
+.sidebar-prof-info button{
+    width: 130px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #045be6;
+    padding: 8px;
+    border-color: #045be6;
+    border-radius: 15px;
+    align-items: center;
+    margin-left: -16px;
+}
+
+.sidebar-prof-info img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 4px;
+    margin-top: -45px;
+    margin-left: 8px;
+}
+
+.lower-case{
+    width: 800px;
+    background-color: white;
+    display: flex;
+    padding: 25px 10px 10px 10px;
+    justify-content: space-around;
+    margin-left: -29px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.lower-case p{
+    position: absolute;
+    margin-top: -15px;
+}
+
+.lower-case2 p{
+    position: relative;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+/* ............profile-dropdown............ */
+
+.drop-down{
+    background-color: white;
+    width: 20%;
+    height: 453px;
+    margin-left: -280px;
+    border-radius: 10px 0 10px 10px;
+    display: none;
+
+ }
+
+ .profile-dropdown:focus-within .drop-down{
+    display: block;
+ }
+
+ .drop-down .account{
+    color: black;
+ }
+
+ .drop-down .blue:hover{
+     color: #045be6;
+     text-decoration: underline;
+ }
+
+ .drop-down h3:hover{
+    text-decoration: underline;
+ }
+
+ .drop-down h3{
+    color: #949494;
+    font-weight: 600;
+    cursor: pointer;
+ }
+
+.profile-dropdown .meee{
+   position: relative;
+}
+
+.profile-dropdown .drop-down{
+    position: absolute;
+}
+
+.drop-down img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.drop-down h3{
+    font-size: 14px;
+}
+
+.drop-down .name{
+    margin-bottom: -40px;
+    font-weight: 400;
+    color: #979797;
+}
+ 
+.drop-down p{
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.drop-down button{
+    margin-left: 80px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    border-color: #4a6fc4;
+    color: #4a6fc4;
+}
+
+.drop-down h3{
+    margin-left: 15px;
+}
+.profile-dropdown .meee{
+    border: none;
+}
